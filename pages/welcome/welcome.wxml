@@ -1,0 +1,7 @@
+<view class="container">
+  <image class="user-avatar" src="{{userInfo.avatarUrl}}"></image>
+<text class="user-name">Hello,{{userInfo.nickName}}</text>
+  <view class="moto-container" bind:tap="begin">
+    <text class="moto">开启开发之旅</text>
+  </view>
+</view>
